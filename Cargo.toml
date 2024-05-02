@@ -96,7 +96,7 @@ url = { version = "2.4", default-features = false }
 # crypto
 elliptic-curve = { git = "https://github.com/zmovane/traits", branch = "fix/deps", package = "elliptic-curve", default-features = false }
 generic-array = { version = "0.14.7", default-features = false }
-k256 = { version = "0.13.1", default-features = false, features = ["ecdsa", "std"] }
+k256 = { git = "https://github.com/zmovane/elliptic-curves", branch = "fix/deps", package = "k256", default-features = false, features = ["ecdsa", "std"] }
 sha2 = { version = "0.10.7", default-features = false }
 tiny-keccak = { version = "2.0.2", default-features = false }
 spki = { version = "0.7.2", default-features = false }
